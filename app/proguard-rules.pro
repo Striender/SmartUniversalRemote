@@ -1,0 +1,8 @@
+-keep class com.smartremote.domain.model.** { *; }
+-keep class com.smartremote.data.remote.api.** { *; }
+-keepattributes Signature
+-keepattributes *Annotation*
+-dontwarn org.eclipse.paho.**
+-keep class org.eclipse.paho.** { *; }
+-keep class com.google.firebase.** { *; }
+-keep class androidx.room.** { *; }
